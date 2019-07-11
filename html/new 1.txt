@@ -1,0 +1,9 @@
+var fullurl = "http://localhost/wxpay/getMoney.php?mid="+"sssss1"+"&money="+"10.01"+"&callback=?";
+
+$.ajax("fullurl", {
+  jsonpCallback: "moty",
+  dataType: "jsonp",
+  success: function(json) {
+    console.log(json);
+  }
+}); 
