@@ -28,6 +28,11 @@
         $w->uid = $_SESSION["uid"] ;
         $w->money =$_REQUEST['money_type'];
         $w->qrcode = $text;
+        if(stripos($text,'wxp:') == 0){
+            $w->type='wx';
+        }else{
+            $w->type='alipay';
+        }
         $id = R::store( $w );
         echo '上传成功';
 

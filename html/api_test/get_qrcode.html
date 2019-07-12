@@ -1,0 +1,26 @@
+<html>
+<head>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $.get("http://localhost/qrcode_get.php?appid=ee54a1fcc9a31800a95ed8eb2df49d41&orderid=10210&money=10&type=3&uid=22&token=9ad02b468dda0df105820556dbb12c12", function(data){
+  		if(data['state']==1){
+  			console.log("Data: " + data['qrcode']);
+  			jQuery('#qrcode').qrcode({width: 84,height: 84,text: data['qrcode']});
+  		}else{
+  			console.log('qrcode is locked');
+  		}
+  		
+	});
+});
+</script>
+</head>
+
+<body>
+<p>If you click on me, I will disappear.</p>
+<div id="qrcode"></div>
+</body>
+
+</html> 

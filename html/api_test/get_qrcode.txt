@@ -1,0 +1,26 @@
+function urlparams($params){
+    $sign = '';
+    foreach ($params AS $key => $val) {
+        if ($val == '') continue;
+        if ($key != 'sign') {
+            if ($sign != '') {
+                $sign .= "&";
+                // $urls .= "&";
+            }
+            $sign .= "$key=$val"; //拼接为url参数形式
+        }
+    }
+    return $sign;
+}
+
+$q_request = array(
+  "appid"  =>  'ee54a1ssc9a31800a95ed8eb2df49d41',//APPID号码
+  "orderid"   =>  $orderid,//数据单号
+  "money"  =>  $money,//金额
+  "type"   =>  'wx',//类别
+  "uid"    =>  '1024',  //客户IP
+  "appkey" =>  '3410e1fb06e75e536751f15g6c09540f'
+);
+echo urlparams($token).'<br>';
+
+$token = md5(urlparams($q_request));
