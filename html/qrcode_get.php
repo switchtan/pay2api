@@ -3,20 +3,7 @@ header('Access-Control-Allow-Origin:*');
 header('Content-Type:application/json; charset=utf-8');
 require 'dbconfig.php';
 //数组拼接为url参数形式
-function urlparams($params){
-    $sign = '';
-    foreach ($params AS $key => $val) {
-        if ($val == '') continue;
-        if ($key != 'sign') {
-            if ($sign != '') {
-                $sign .= "&";
-                // $urls .= "&";
-            }
-            $sign .= "$key=$val"; //拼接为url参数形式
-        }
-    }
-    return $sign;
-}
+
 function callback($money,$url){
 	$arr = array('state'=>1,
 			'qrcode'=>$url,

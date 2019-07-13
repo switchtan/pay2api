@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27da4bd9-4d06-4b06-b5b0-c48ca83fd342" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gitini.sh" beforeDir="false" afterPath="$PROJECT_DIR$/gitini.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dbconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/dbconfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/getMoney.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/getMoney.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/qrcode_get.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/qrcode_get.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +15,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gitini.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/getMoney.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/qrcode_get.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="68" column="65" lean-forward="true" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/dbconfig.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -58,6 +88,9 @@
         <option value="$PROJECT_DIR$/wxbot/wxBot/test.py" />
         <option value="$PROJECT_DIR$/gitpush.sh" />
         <option value="$PROJECT_DIR$/gitini.sh" />
+        <option value="$PROJECT_DIR$/html/qrcode_get.php" />
+        <option value="$PROJECT_DIR$/html/dbconfig.php" />
+        <option value="$PROJECT_DIR$/html/getMoney.php" />
       </list>
     </option>
   </component>
@@ -82,6 +115,11 @@
             <path>
               <item name="ea" type="b2602c69:ProjectViewProjectNode" />
               <item name="ea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ea" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ea" type="b2602c69:ProjectViewProjectNode" />
@@ -190,10 +228,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-2" width="1440" height="902" extended-state="6" />
+    <frame x="1916" y="0" width="1448" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18046708" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18008475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -204,8 +242,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32868218" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.497523" visible="true" weight="0.32496697" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.502477" side_tool="true" visible="true" weight="0.32496697" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4957627" visible="true" weight="0.32724902" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5042373" side_tool="true" visible="true" weight="0.32724902" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32868218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -240,6 +278,13 @@
     <entry file="file://$PROJECT_DIR$/wxbot/wxBot/README.md" />
     <entry file="file://$PROJECT_DIR$/wxbot/wxBot/bot.py" />
     <entry file="file://$PROJECT_DIR$/wxbot/wxBot/test.py" />
+    <entry file="file://$PROJECT_DIR$/gitini.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gitpush.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -247,10 +292,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitini.sh">
+    <entry file="file://$PROJECT_DIR$/html/dbconfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/qrcode_get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="68" column="65" lean-forward="true" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/getMoney.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>

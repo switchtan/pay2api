@@ -11,11 +11,22 @@
 		$pay_record->mid = $_GET["mid"];
 		$pay_record->money=$_GET["money"];
 		$pay_record->datenow=$_GET["date"];
+		$pay_record->appid=$_GET["appid"];
 		// $pay_record->order_number="" ;
-		
-		$id = R::store( $pay_record );
-		echo "ok";
+
+		$siteuser_obj = R::findOne( 'siteuser', ' appid = ? ', [ $_REQUEST['appid']] );
+        // echo 'appkey:'.$siteuser_obj['appkey'].'<br>';
+
+		$token=$_REQUEST['token'];
+		$token_local=client_sign($_REQUEST["appid"], $siteuser_obj['appkey'], $_REQUEST["date"] );
+		if($token_local == $token ){
+		    $id = R::store( $pay_record );
+		    echo json_encode(array('state'=>'1'));
+		}else{
+		    echo json_encode(array('error'=>'token no match,maybe appkey error','state'=>'0'));
+		}
+
 	}else{
-		echo "参数不正确";
+		echo json_encode(array('error'=>'querys no match','state'=>'0'));
 	}
 	?>
