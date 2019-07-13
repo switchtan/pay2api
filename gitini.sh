@@ -5,5 +5,5 @@ git remote add origin https://switchtan:00guavaguava@github.com/switchtan/pay2ap
 git pull origin master
 git fetch
 git remote -v
-git branch -r
+#git branch -r
 git checkout master
