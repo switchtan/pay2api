@@ -82,7 +82,7 @@
                                 <a class="J_menuItem" href="qrcode_list_v.php">今日流水</a>
                             </li>
                             <li>
-                                <a class="J_menuItem" href="qrcode_update_v.php">全部流水</a>
+                                <a class="J_menuItem" href="qrcode_list_v.php">全部流水</a>
                             </li>
                             
                         </ul>
